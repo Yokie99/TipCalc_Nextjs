@@ -39,4 +39,11 @@ body {
   transform: translate(-50%, -50%);
 }
 
+/* text-white bg-green-800 rounded-md min-w-16 */
 
+.percentBtn{
+ color: white;
+ background-color: green;
+ border-radius: 0.4rem;
+ height: 3rem;
+}
