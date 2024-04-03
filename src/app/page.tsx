@@ -65,8 +65,8 @@ export default function Home() {
     <div className="bg-[rgb(196,228,231)] h-screen w-full">
       <div className={`centered ${spacemono.className}`}>
         <div className="text-center pb-20">
-          <h1 className="tracking-widest text-2xl">SPLI</h1>
-          <h1 className="tracking-widest text-2xl">TTER</h1>
+          <h1 className="tracking-widest text-2xl text-[rgb(62,97,99)]">SPLI</h1>
+          <h1 className="tracking-widest text-2xl text-[rgb(62,97,99)]">TTER</h1>
         </div>
 
         <div className="flex justify-center">
@@ -74,7 +74,7 @@ export default function Home() {
             <div className="grid grid-cols-2 min-w-[60vw] p-8 gap-8">
               <div className="rounded-lg px-5 py-5">
                 <div>
-                  <div className="text-[18px] ">
+                  <div className="text-[18px] text-[hsl(184,14%,56%)]">
                     Bill
                     <div className="relative mt-2 text-[20px">
                       <span className="absolute left-5 top-[0.7rem]">
@@ -92,15 +92,15 @@ export default function Home() {
                 </div>
 
                 <div className="py-8">
-                  <h2>Select Tip%</h2>
+                  <h2 className="text-[hsl(184,14%,56%)]">Select Tip%</h2>
                   <div className="grid grid-rows-2 gap-2">
                     <div className="grid grid-cols-3 gap-3">
-                      <PercentBtnComponent percentage={5} clicked={setPercent} percentageLabel={'5%'}/>
-                      <PercentBtnComponent percentage={10} clicked={setPercent} percentageLabel={'10%'}/>
-                      <PercentBtnComponent percentage={15} clicked={setPercent} percentageLabel={'15%'}/></div>
+                      <PercentBtnComponent activePercent={percent} percentage={5} clicked={setPercent} percentageLabel={'5%'}/>
+                      <PercentBtnComponent activePercent={percent} percentage={10} clicked={setPercent} percentageLabel={'10%'}/>
+                      <PercentBtnComponent activePercent={percent} percentage={15} clicked={setPercent} percentageLabel={'15%'}/></div>
                       <div className="grid grid-cols-3 gap-3">
-                        <PercentBtnComponent percentage={25} clicked={setPercent} percentageLabel={'25%'}/>
-                      <PercentBtnComponent percentage={50} clicked={setPercent} percentageLabel={'50%'}/>
+                      <PercentBtnComponent activePercent={percent} percentage={25} clicked={setPercent} percentageLabel={'25%'}/>
+                      <PercentBtnComponent activePercent={percent} percentage={50} clicked={setPercent} percentageLabel={'50%'}/>
                       <button
                         onClick={() => setPercent(500)}
                         className="percentBtn"
@@ -113,9 +113,9 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="text-[18px] ">
+                <div className="text-[18px] text-[hsl(184,14%,56%)]">
                     Number of People
-                    <div className="relative mt-2 text-[20px">
+                    <div className="relative mt-2 text-[20px]">
                       <span className="absolute left-5 top-[0.7rem]">
                         <Image src={person} alt={""} />
                       </span>
@@ -135,19 +135,19 @@ export default function Home() {
                 <div className="flex justify-between py-6">
                   <div className="">
                     <h2>Tip Amount</h2>
-                    <p>/ person</p>
+                    <p className="text-[hsl(184,14%,56%)]">/ person</p>
                   </div>
-                  <h1 className="text-5xl">{`$ ${tipAmount.toFixed(2)}`}</h1>
+                  <h1 className="text-5xl text-[rgb(40,194,172)]">{`$ ${tipAmount.toFixed(2)}`}</h1>
                 </div>
                 <div className="flex justify-between py-6">
                   <div>
                     <h2>Total</h2>
-                    <p>/ person</p>
+                    <p className="text-[hsl(184,14%,56%)]">/ person</p>
                   </div>
-                  <h1 className="text-5xl">{`$ ${total.toFixed(2)}`}</h1>
+                  <h1 className="text-5xl text-[rgb(40,194,172)]">{`$ ${total.toFixed(2)}`}</h1>
                 </div>
                 <div className="flex justify-center pt-24 pb-8">
-                  <button className=" bg-green-400 w-10/12 rounded-md h-14" onClick={handleReset}>
+                  <button className=" bg-[rgb(38,194,173)] w-10/12 rounded-md h-14 text-[rgb(0,71,75)]" onClick={handleReset}>
                     RESET
                   </button>
                 </div>

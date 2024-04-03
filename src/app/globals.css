@@ -43,7 +43,15 @@ body {
 
 .percentBtn{
  color: white;
- background-color: green;
+ background-color: rgb(0, 71, 75);
  border-radius: 0.4rem;
  height: 3rem;
+ font-size: 1.4rem;
+}
+.percentBtn2{
+ color: rgb(0, 71, 75);
+ background-color:rgb(38,194,173);
+ border-radius: 0.4rem;
+ height: 3rem;
+ font-size: 1.4rem;
 }
