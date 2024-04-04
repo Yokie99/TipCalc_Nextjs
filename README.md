@@ -15,8 +15,9 @@ Desktop and Mobile Versions
 Vercel Link: https://tip-calc-nextjs.vercel.app/
 
     
-## Peer Reviewer: 
-## Review: 
+## Peer Reviewer: Jeriah Marson
+## Review: Over all great, all th colors are correct and it works as inteded, but you can do decimals and the SPLITTER could use a little bit more space inbetween ironically
+Again great job, i also like what you did with the custom button with the arrow increments
 
 
 
