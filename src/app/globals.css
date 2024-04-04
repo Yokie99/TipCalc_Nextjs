@@ -47,6 +47,7 @@ body {
  border-radius: 0.4rem;
  height: 3rem;
  font-size: 1.4rem;
+ width: 100%;
 }
 .percentBtn2{
  color: rgb(0, 71, 75);
@@ -54,4 +55,17 @@ body {
  border-radius: 0.4rem;
  height: 3rem;
  font-size: 1.4rem;
+ width: 100%;
 }
+
+.customInput{
+  height: 45px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.customInput::placeholder{
+  color: rgba(0, 73, 77, .75);
+  font-size: 1.4rem;
+}
+

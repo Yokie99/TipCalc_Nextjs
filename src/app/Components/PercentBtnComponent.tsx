@@ -9,9 +9,12 @@ interface PercentBtnComponentProps{
 
 const PercentBtnComponent = (props:PercentBtnComponentProps) => {
   return (
-    <button onClick={() => props.clicked(props.percentage)} className={props.activePercent == props.percentage ? "percentBtn2" : "percentBtn"}>
+    <div className="col-span-1">
+      <button onClick={() => props.clicked(props.percentage)} className={props.activePercent == props.percentage ? "percentBtn2" : "percentBtn"}>
       {props.percentageLabel}
     </button>
+    </div>
+    
   );
 };
 
