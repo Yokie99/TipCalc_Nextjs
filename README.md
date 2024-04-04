@@ -1,3 +1,29 @@
+Kyle Yok Eyh Ma
+4/4/24
+Tip Calculator FrontEnd Mentor
+
+Description:
+
+Create a tip Calculator from the FrontEndMentor starter
+Requirements:
+
+Next.JS with Typescript
+Tailwind CSS
+Desktop and Mobile Versions
+
+
+Vercel Link: https://tip-calc-nextjs.vercel.app/
+
+    
+## Peer Reviewer: 
+## Review: 
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
